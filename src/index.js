@@ -2,7 +2,7 @@ import React, {Component} from "react"
 import ReactDOM, {render} from 'react-dom'
 import * as util from './common/util.js'
 var a = 5;
-class Dated extends Componen{
+class Dated extends Component{
 	render(){
 		return <h1>react 热加载 测试：{a}</h1>
 	}
